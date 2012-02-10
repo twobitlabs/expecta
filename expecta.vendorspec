@@ -9,7 +9,7 @@ Vendor::Spec.new do |s|
   s.homepage       "https://github.com/twobitlabs/expecta"
   s.source         "https://github.com/twobitlabs/expecta"
 
-  s.per_file_setting  "COMPILER_FLAGS", "-fno-objc-arc"
+  s.per_file_flag  "-fno-objc-arc"
 
   s.files          Dir['src']
 end
