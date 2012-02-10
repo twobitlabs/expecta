@@ -1,0 +1,15 @@
+Vendor::Spec.new do |s|
+  s.name           "expecta"
+  s.version        "0.1"
+                   
+  s.authors        "petejkim"
+  s.email          "contact@twobitlabs.com"
+  s.description    "A Matcher Framework for Objective-C/Cocoa"
+                   
+  s.homepage       "https://github.com/twobitlabs/expecta"
+  s.source         "https://github.com/twobitlabs/expecta"
+
+  s.per_file_setting  "COMPILER_FLAGS", "-fno-objc-arc"
+
+  s.files          Dir['src']
+end
