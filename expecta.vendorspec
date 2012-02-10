@@ -11,5 +11,5 @@ Vendor::Spec.new do |s|
 
   s.per_file_flag  "-fno-objc-arc"
 
-  s.files          Dir['src']
+  s.files          Dir['src/**/*.{h,m}']
 end
